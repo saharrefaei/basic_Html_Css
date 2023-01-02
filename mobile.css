@@ -1,0 +1,75 @@
+.rightbar ul li a {
+    float: none;
+    text-align: center;
+    display: block;
+    color: rgb(253, 244, 244);
+    text-decoration: none;
+    padding: 30px;
+    font-size: large;
+    border-radius: 5%;
+}
+
+.navigation-icon img {
+    width: 150px;
+    float: none;
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section div {
+    padding: 80px;
+    overflow: auto;
+    text-align: center;
+}
+.left {
+display: none;   
+
+}
+
+.right {
+    /* text-align: left; */
+    background-color: #333;
+    float: right;
+    width: 100%;
+    height: 500px;
+    padding: 150px 40px;
+}
+
+
+.thirdsection {
+    /* text-align: center; */
+    display: inline;
+    float: left;
+    width: 50%;
+    height: 100%;
+    height: fit-content;
+    background-color: #f4f4f4
+    ;
+    padding: 100px;
+
+}
+
+.thirdsection2 {
+    /* text-align: center; */
+    display: inline;
+    float: left;
+    width: 50%;
+    height: fit-content;
+    background-color: #0c2461;
+    padding: 100px;
+    
+}
+.thirdsection3 {
+    text-align: center;
+    display: inline;
+    float: left;
+    width: 100%;
+    height: fit-content;
+    background-color: #f4f4f4;
+    padding: 100px;
+
+}
+.footer{
+    display: none;
+}

@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navigation-bar {
+    background-color:#0c2461;
+    padding: 0px 150px;
+    overflow: auto;
+}
+
+.navigation-icon img {
+    width: 150px;
+    float: left;
+    padding-top: 10px;
+
+}
+
+.rightbar ul {
+
+    list-style: none;
+}
+
+.rightbar ul li a {
+    float: right;
+    display: block;
+    color: rgb(253, 244, 244);
+    text-decoration: none;
+    padding: 30px;
+    font-size: large;
+    border-radius: 5%;
+
+}
+
+.rightbar ul li a:hover {
+    border: 4x solid;
+    background-color: rgb(20, 102, 197);
+    color: rgb(182, 182, 182);
+}
+
+.section {
+    background: url(../exercise_files_html5_css3/developerSite/img/showcase.jpg) no-repeat center center/cover;
+    opacity: 0.8;
+    height: fit-content;
+
+
+}
+
+.section div {
+    padding: 200px;
+    overflow: auto;
+    text-align: center;
+}
+
+.section p {
+    color: rgb(253, 244, 244);
+    font-size: xx-large;
+    padding-bottom: 20px;
+
+
+}
+
+.button {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border-radius: 30%;
+    background-color: #0c2461;
+    padding-top: 13px;
+    text-decoration: none;
+    color: wheat;
+}
+
+.button:hover {
+    background-color: rgb(238, 243, 236);
+    color: black;
+}
+
+.right {
+    text-align: center;
+    background-color: #333;
+    float: right;
+    width: 50%;
+    height: 500px;
+    padding: 150px 40px;
+}
+
+.right p {
+    padding-bottom: 20px;
+    color :rgb(253, 244, 244);
+}
+
+.continue {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: #0c2461;
+    padding-top: 12px;
+    text-decoration: none;
+    color: wheat;
+    border-radius: 30%;
+}
+.continue:hover {
+    background-color: rgb(238, 243, 236);
+    color: black;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    background: url(../exercise_files_html5_css3/developerSite/img/photo-1.jpg);
+    height: 500px;
+
+}
+
+.thirdsection {
+    text-align: center;
+    display: inline;
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    height: 400px;
+    background-color: #f4f4f4
+    ;
+    padding: 100px;
+
+}
+
+.thirdsection2 {
+    text-align: center;
+    display: inline;
+    float: left;
+    width: 33.3%;
+    height: 400px;
+    background-color: #0c2461;
+    padding: 100px;
+    
+}
+.thirdsection3 {
+    text-align: center;
+    display: inline;
+    float: left;
+    width: 33.4%;
+    height: 400px;
+    background-color: #f4f4f4;
+    padding: 100px;
+
+}
+.thirdsection img,
+.thirdsection3 img,.thirdsection2 img{
+    width: 10%;
+    padding-bottom: 15px;
+}
+.thirdsection h3,
+.thirdsection3 h3,.thirdsection2 h3{
+    text-align: center; 
+    padding-bottom: 15px;
+}
+.footer{
+    width: auto;
+    background-color:#0c2461;
+}
+.footer img{
+    width: 150px;
+    display: block;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
